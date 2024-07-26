@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="Assets/Style Css/style.css">
     <!-- ===== SLIDER CSS -->
      <link rel="stylesheet" href="Assets/Style Css/slider.css">
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- ===== BOOTSTRAP 5  -->
     <link rel="stylesheet" href="Assets/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <!-- ===== Font Awesome Cdn -->
@@ -54,7 +56,7 @@
                 </div>
             </div>
         </div>
-        <div class="row container">
+        <!-- <div class="row container">
             <div class="categories mx-auto">
                 <p>SALE</p>
                 <P>SAREES</P>
@@ -65,15 +67,69 @@
                 <P>NEW ARRIVALS</P>
                 <P>OCCASIONS</P>
             </div>
-        </div>
+        </div> -->
     </nav>
+    <!-- ===== section Core Nav Bar End ===== -->
+    <!-- ===== section Hero Section Start ===== -->
+    <section id="Banner">
 
-    <!-- section Core Nav Bar End -->
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="Assets/Content All images/banner/B1G3-Int_main.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Assets/Content All images/banner/jaipur-Charm_(1)_main_webp.webp" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Assets/Content All images/banner/Festive-Kurta-Int_(1)_main_webp.webp" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Assets/Content All images/banner/Msite-3__main_webp.webp" />
+            </div>
+        </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    </section>
+    <!-- ===== section Hero Section End ===== -->
+    <!-- ===== Section Cards Slider Start ===== -->
+     <div id="Cards-slider">
+        <!-- Swiper -->
+        <div class="swiper MySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+            </div>
+          <div class="swiper-pagination"></div>
+        </div>
+     </div>
+    <!-- ===== Section Cards Slider End ===== -->
+
+    
+
+
+
+
+
+
     <!-- ========== IMPORTANT SCRIPTS LINKS  ========== -->
     <!-- ===== Bootstrap Script ===== -->
     <script src="Assets/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-    <!-- ===== Slider js Cdn  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-slider/1.0.1/simpleslider.min.js" integrity="sha512-42ihIJMe9wofu/ceGVAmlEYPtHXiMHaqlyNircGpwIIPoS6njsNUkhP6TFnwpcmtC1ACydkX0polDFQesnLukg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--===== Slider Script ===== -->
+    <!-- Initialize Swiper -->
+    <script src="Assets/Javascript/Slider.js"></script>
     <!-- ===== Custom Script ===== -->
     <script src="Assets/Javascript/script.js"></script>
 </body>
