@@ -8,55 +8,28 @@
     --color-5: #541615;
     --color-Dark: #000000;
 }
+
 /* ========== All Selector Start */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
-body{
+body {
     background-color: var(--color-1);
 }
 
 
 /* ========== Rare Finds Start */
 
-#rareFinds h3{
+#rareFinds h3 {
     color: var(--color-4);
 }
 
-/* ========== Rare Finds End */
+.img-fluid {
+    width: 100%;
+    height: 100%;
+}
 
-/* <!-- ===== section Hero Section Start ===== --> */
-#Banner{
-    height: 70vh; 
-    width: 100%;
-}
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
-.swiper-slide{
-    width: 100%;
-    height: 100%;
-}
-#Banner img{
-    width: 100%;
-}
-/* <!-- ===== section Hero Section End ===== --> */
-#Cards-slider{
-    margin-top: 50px;
-    height: 300px;
-    width: 100%;
-    background-color: #fce5e5;
-}
-#Cards-slider .swiper-wrapper{
-    height: 100%;
-    width: 100%;
-    background-color: blueviolet;
-}
-#Cards-slider .swiper-wrapper .swiper-slide{
-    background-color: lightblue;
-}
+/* ========== Rare Finds End */
