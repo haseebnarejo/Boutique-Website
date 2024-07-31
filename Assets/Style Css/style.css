@@ -21,16 +21,16 @@ body {
 }
 
 /* ========== Rare Finds Start */
-<<<<<<< HEAD
-#rareFinds h3{
-    color: var(--color-4);
+
+#rareFinds p{
+    color: var(--color-5);
 }
 /* ========== Rare Finds End */
 
 /* <!-- ===== section Hero Section Start ===== --> */
-#banner{
+/* #banner{
     height: 650px;
-}
+} */
 #banner .swiper-wrapper,#banner .swiper-slide{
     height: 100%;
     width: 100%;
@@ -41,7 +41,7 @@ body {
 }
 /* ========== Cards */
 #cards{
-    height: 30vh;
+    height: 27vh;
     margin-top: 2rem;
 }
 #cards .swiper-wrapper{
@@ -49,25 +49,24 @@ body {
     margin-top: 10px;
 }
 #cards .swiper-slide{
-    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #cards img{
-    height: 235px;
+    height: 225px;
 }
 
 /* Sale Section Start */
 #sale-section {
-    height: 757px;
+    /* height: 757px; */
     margin: 30px 0;
 }
 #sale-section img{
     width: 100%;
 }
 /* Sale Section End */
-=======
+
 
 #rareFinds h3 {
     color: var(--color-4);
@@ -79,4 +78,112 @@ body {
 }
 
 /* ========== Rare Finds End */
->>>>>>> 377deef65c333d1dc1b9238b8c5948475dcde7c0
+
+
+/* ========== Delivery-Options Start */
+.Delivery-Options .delivery-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.Delivery-Options .delivery-container i{
+    color: var(--color-3);
+    font-size: 5rem;
+    
+}
+.Delivery-Options .delivery-container .Content-delivery{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+    color: var(--color-5);
+}
+.Delivery-Options .delivery-container .Content-delivery p{
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* <!-- ==== My fashon Day Section Start --> */
+.top-fashon{
+    color: var(--color-5);
+}
+.bottom-fashon img{
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+}
+/* <!-- ==== My fashon Ustad Section End --> */
+/* Customer Review Section Start */
+#customer-reviews .reviews .review-data{
+    background-color: var(--color-2);
+}
+#customer-reviews .review-heading{
+    color: var(--color-5);
+}
+/* Customer Review Section End */
+
+/* Footer Start */
+footer{
+    background-color: var(--color-2);
+}
+footer ul a{
+    text-decoration: none;
+    color: var(--color-Dark);
+    margin: 0 5px;
+}
+footer ul li{
+    list-style: none;
+}
+footer .foter-Img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .foter-Img img{
+    height: 300px;
+    width: auto;
+}
+footer .signup-input{
+    width: 60%;
+    border-radius: 5px;
+    background-color:#e29a9a;
+    padding: 10px;
+    color: var(--color-0);
+}
+footer .signup-input input{
+    width: 95%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--color-0);
+}
+footer .signup-input input::placeholder{
+    color: var(--color-0);
+}
+footer .signup-input i{
+    font-size: 23px;
+    cursor: pointer;
+}
+footer .foter-incons i{
+    color:#c64242;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    cursor: pointer;
+} 
+footer .foter-incons i:hover{
+    color: var(--color-5);
+}
+
+/* Footer End */
+
+/* Styles for devices with a viewport width of 768px or larger */
+@media (max-width: 768px) {
+    .Delivery-Options .delivery-container i {
+        color: var(--color-3);
+        font-size: 3rem;
+    }
+}
