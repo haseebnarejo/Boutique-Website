@@ -20,41 +20,181 @@ body {
     background-color: var(--color-1);
 }
 
-/* ========== Rare Finds Start */
-<<<<<<< HEAD
-#rareFinds h3{
+/* Header Start */
+#header {
+    background-color: #ffffff;
+}
+
+#header .searchBar {
+    position: relative;
+}
+
+#header .searchBar i {
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+}
+
+#header .searchBar input {
+    width: 100%;
+    height: 35px;
+    padding-left: 40px;
+    border: 1px solid gray;
+}
+
+#header .searchBar input:focus{
+    outline: none;
+}
+
+#header .logo{
+    display: flex;
+    justify-content: center;
+}
+
+#header .logo img{
+    height: 100px;
+    width: 100px;
+}
+
+#header .icons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+}
+
+#header .icons i{
+    font-size: 25px;
+}
+
+/* Mega menu bar */
+
+.navbar h6{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #541615;
+}
+
+.navbar-dark .navbar-brand{
+    color: #000;
+}
+
+#header nav .col-megamenu ul li a{
+    text-decoration: none;
+    color: var(--color-2);
+    font-size: 12px;
+}
+
+#header nav .nav-link{
     color: var(--color-4);
 }
+
+#header nav .nav-link {
+    position: relative;
+    display: inline-block;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+#header nav .nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1.5px;
+    border: 0;
+    background-color: #845252;
+    transition: width 0.3s ease;
+    margin: 0;
+  }
+
+#header nav .nav-link:hover::after {
+    width: 100%;
+  }
+  
+
+#header nav .dropdown-item{
+    color: var(--color-2);
+    font-size: 12px;
+}
+
+#header .navbar-nav{
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* .dropdown-toggle::after {
+    display: none;
+} */
+
+.navbar .megamenu{ padding: 1rem; }
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+	
+}	
+/* ============ desktop view .end// ============ */
+
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+	.navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+		overflow-y: auto;
+	    max-height: 90vh;
+	    margin-top:10px;
+	}
+}
+/* ============ mobile view .end// ============ */
+
+/* Header End */
+
+/* ========== Rare Finds Start */
+#rareFinds h3 {
+    color: var(--color-4);
+}
+
 /* ========== Rare Finds End */
 
 /* <!-- ===== section Hero Section Start ===== --> */
-#banner{
+#banner {
     height: 650px;
 }
-#banner .swiper-wrapper,#banner .swiper-slide{
+
+#banner .swiper-wrapper,
+#banner .swiper-slide {
     height: 100%;
     width: 100%;
 }
-#banner img{
+
+#banner img {
     height: 100%;
     width: 100%;
 }
+
 /* ========== Cards */
-#cards{
+#cards {
     height: 30vh;
     margin-top: 2rem;
 }
-#cards .swiper-wrapper{
+
+#cards .swiper-wrapper {
 
     margin-top: 10px;
 }
-#cards .swiper-slide{
+
+#cards .swiper-slide {
     height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#cards img{
+
+#cards img {
     height: 235px;
 }
 
@@ -63,11 +203,12 @@ body {
     height: 757px;
     margin: 30px 0;
 }
-#sale-section img{
+
+#sale-section img {
     width: 100%;
 }
+
 /* Sale Section End */
-=======
 
 #rareFinds h3 {
     color: var(--color-4);
@@ -79,4 +220,24 @@ body {
 }
 
 /* ========== Rare Finds End */
->>>>>>> 377deef65c333d1dc1b9238b8c5948475dcde7c0
+
+/* Trending Start */
+
+.swiper .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reel {
+    width: 95%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.reel video {
+    border-radius: 10px;
+}
+
+/* Trending End */
